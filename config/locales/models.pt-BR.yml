@@ -1,7 +1,7 @@
 'pt-BR':
   activerecord:
     models:
-      admin: Customer
+      admin: 
         one: Administrador
         other: Administradores
       profile:
@@ -9,13 +9,11 @@
         other: Perfis
     attributes:
       admin:
-        email: Email
-        id: Código
-        created_at: Criado em
-        updated_at: Atualizado em
+        id: "Código"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
       profile:
-        email: Email
-        id: Código
-        created_at: Criado em
-        updated_at: Atualizado em
+        id: "Código"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
       # will translate User attribute "login" as "Handle"
