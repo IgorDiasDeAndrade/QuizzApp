@@ -19,7 +19,7 @@ namespace :dev do
     )
   end
 
-  desc "Cria adiministrador padrão"
+  desc "Cria profile padrão"
   task add_profiles: :environment do
     Profile.create!(
       email: 'profile@profile.com',
